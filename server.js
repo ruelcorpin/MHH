@@ -8,6 +8,8 @@ const app = express();
 const PORT = 3000;
 const DATA_FILE = path.join(__dirname, "signup_data.txt");
 const SALT_ROUNDS = 10; // Security level for bcrypt
+const filePath = path.join("/data", "signup_data.txt");
+
 
 // Middleware to parse form data
 app.use(bodyParser.urlencoded({ extended: true }));
