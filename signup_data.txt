@@ -1,0 +1,20 @@
+First Name: Ruel
+Last Name: Corpin
+Email: ruelcorpin@gmail.com
+Password: $2b$10$4EAhGj/tcC8AI.xTaJ2NmeAdv5D4eFgD76FLxgw95HgIqE0SMyfae
+----------------------
+First Name: Oscar
+Last Name: Pacheco
+Email: oscarpacheco@gmail.com
+Password: $2b$10$GAfRIv.dq8lszoJlOmCb8uIJN6k0Lehc6ppnP.S0COA.BnmwFk9Cq
+----------------------
+First Name: Ivan
+Last Name: Valmadrid
+Email: ivan@lambton.ca
+Password: $2b$10$xnpgq3aeETmOdlNbe.wocexC9JTCg6yPxf7fHmJekhVowMNEtjOJS
+----------------------
+First Name: Ruel
+Last Name: Corpin
+Email: c0902723@mylambton.ca
+Password: $2b$10$QDts7m34l.ekyGG2u1kgkuCaWTXD/UfwmHw1NEyS6mAhGxDNwAJ8i
+----------------------

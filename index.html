@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Hub - Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="icon.png" alt="Mental Health Hub Logo" class="logo">
+        <h1>Mental Health Hub</h1>
+    </header>
+
+    <!-- <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form action="/signup" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Register</button>
+        </form> -->
+
+    <!-- Signup and Signin Container -->
+    <div class="form-container">
+        <!-- Tabs for Sign Up and Sign In -->
+        <div class="tabs">
+            <!-- <button class="tab-button active" onclick="switchTab('signup')">Sign Up</button> -->
+            <!-- <button class="tab-button" onclick="switchTab('signin')">Sign In</button> -->
+        </div>
+
+        <!-- Sign Up Form -->
+        <div id="signup" class="form-box active-form">
+            <h1>Sign Up</h1>
+            <form id="signupForm">
+                <!-- <input type="text" id="signupName" name="name" placeholder="Full Name" required> -->
+                <div class="name-container">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                </div>
+                <input type="email" id="signupEmail" name="email" placeholder="Email" required>
+                <input type="password" id="signupPassword" name="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+            
+        </div>
+
+        <!-- Sign In Form -->
+        <div id="signin" class="form-box">
+            <h1>Sign In</h1>
+            <form id="signinForm">
+                <input type="email" id="signinEmail" name="email" placeholder="Email" required>
+                <input type="password" id="signinPassword" name="password" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+            </form>
+            <a href="reset.html" class="reset-link">Forgot Password?</a>
+        </div>
+
+
+	<!-- Message Display -->
+	<div id="message"></div>
+
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
